@@ -1,0 +1,40 @@
+{
+    "glasses": {
+        "_id": "ObjectId",
+        "brand": "String",
+        "frameType": "String",
+        "price": "Double",
+        "provider": {
+            "name": "String",
+            "address": {
+                "street": "String",
+                "number": "Integer",
+                "floor": "Integer",
+                "door": "String",
+                "city": "String",
+                "zipCode": "String",
+                "country": "String"
+            },
+            "phoneNumber": "String",
+            "fax": "String",
+            "nif": "String"
+        },
+        "boughtBy": [
+            {
+                "name": "String",
+                "address": {
+                    "street": "String",
+                    "number": "Integer",
+                    "floor": "Integer",
+                    "door": "String",
+                    "city": "String",
+                    "zipCode": "String",
+                    "country": "String"
+                },
+                "phoneNumber": "String",
+                "email": "String",
+                "purchaseDate": "Date"
+            }
+        ]
+    }
+}
